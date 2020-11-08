@@ -6,7 +6,7 @@ def line(katz_deli)
       current_line.push("#{counter}. #{name}")
       counter += 1
     end
-    puts "The line is currently: #{current_line.join}(" ")."
+    puts "The line is currently: #{current_line.join(" ")}."
   else
     puts "The line is currently empty."
   end
