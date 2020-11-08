@@ -8,4 +8,5 @@ def line(katz_deli)
     katz_deli.each do |list|
     puts "The line is currently: #{list}."
   end
+  end
 end
