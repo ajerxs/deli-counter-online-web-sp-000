@@ -6,6 +6,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     line = katz_deli.join
-    puts "The line is currently: #{line}."
+    puts "The line is currently: #{line }."
   end
 end
