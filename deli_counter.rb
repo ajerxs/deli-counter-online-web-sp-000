@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     line = katz_deli.join(" ")
     counter = 1
-    puts "The line is currently: #{counter}. #{line}."
+    puts "The line is currently: #{counter + "." + line}."
     counter += 1
   end
 end
