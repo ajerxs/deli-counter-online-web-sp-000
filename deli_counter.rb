@@ -1,11 +1,11 @@
-# Write your code here.
-katz_deli = []
-
 def line(katz_deli)
-  if katz_deli.size == 0
-    puts "The line is currently empty."
+  if katz_deli.size >= 1
+    current_line = []
+    counter = 1
+    katz_deli.each do |name|
+      current_line.push("#{counter}. #{name}")
+      counter += 1
+    end
+    puts "The line is currently: #{current_line.join}."
   else
-    line = katz_deli.each_with_index
-    puts "The line is currently: #{line}."
-  end
-end
+    puts "The line is currently empty."
